@@ -1,0 +1,42 @@
+@import "_var";
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-top{
+    background-color: $color_header_top;
+    height: 30px;
+    font-size: 12px;
+
+    .left_header_top{
+        margin-top: 5px;
+        vertical-align: middle;
+    }
+    .right_header_top{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+    img{
+        margin-right: 5px;
+    }
+    .row{
+        height: 30px;
+       margin-left: 5%;
+       margin-right: 5%;
+       
+       a{
+        text-decoration: none;
+        color: white;
+        }
+    }
+    .container-fluid{
+        height: 30px;
+        color: white;
+        & > a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

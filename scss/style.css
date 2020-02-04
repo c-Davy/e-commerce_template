@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  background-color: #303030;
+  height: 30px;
+  font-size: 12px;
+}
+.header-top .left_header_top {
+  margin-top: 5px;
+  vertical-align: middle;
+}
+.header-top .right_header_top {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.header-top img {
+  margin-right: 5px;
+}
+.header-top .row {
+  height: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.header-top .row a {
+  text-decoration: none;
+  color: white;
+}
+.header-top .container-fluid {
+  height: 30px;
+  color: white;
+}
+.header-top .container-fluid > a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
