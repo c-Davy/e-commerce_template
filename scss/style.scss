@@ -3,11 +3,20 @@
     margin: 0;
     padding: 0;
 }
+ [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .header-top{
     background-color: $color_header_top;
     height: 30px;
     font-size: 12px;
-
     .left_header_top{
         margin-top: 5px;
         vertical-align: middle;
@@ -20,6 +29,7 @@
     }
     img{
         margin-right: 5px;
+        margin-left: 0;
     }
     .row{
         height: 30px;
@@ -40,3 +50,59 @@
         }
     }
 }
+.header_middle{
+    font-size: 12px;
+    height: 80px;
+    .pill_2{
+        margin-top: -10px;
+    }
+    .describe_hour{
+        color: orange;
+    }
+    .search_bar{
+        width: 80%;
+        height: 40px;
+        border-radius: 30px 0px 0px 30px;
+        border :1px solid #E1E1E1;
+        padding-left: 15px;
+    }
+    .form-inline{
+        padding-left: 10%;
+    }
+    .search_button{
+        border-radius: 0px 20px 20px 0px;
+        border-style:none;
+        width: 10%;
+        height: 40px;
+        background-color: #ff8e0a;
+        border-color: #ff8e0a;
+    }
+    .cart{
+        display: inline-flex;
+    }
+    .heart, .shopping_cart{
+        width: 45px;
+        height:35px;
+        padding: 5px;
+        .badge-pill{
+            margin-top: 0;
+           margin-right: 15px;
+        }
+        .pin{
+            border-radius: 20px 20px 20px 20px;
+            width: 20px;
+            text-align: center;
+            background: orange;
+            color: white;
+            position: absolute;
+            top: 0px;
+            left: 25px;
+        }
+        .pin_1{
+            margin-left: 35px;
+        }
+    }
+}
+
+
+

@@ -3,30 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>Goods</title>
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="../scss/style.css">
     </head>
 
     <body>
 
-        <header class="header-top">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-2 left_header_top">
-                        <div>
-                            <img src="../assets/header_top_barre/phone_top.png">
-                                <a href="#">(+800) 123 456 7890</a>
-                            </img>
-                        </div>
+<header>
+    <div class="header-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 left_header_top">
+                    <div>
+                        <img src="../assets/header_top_barre/phone_top.png">
+                            <a href="#">(+800) 123 456 7890</a>
+                        </img>
                     </div>
-                    <div class="col-lg-2 left_header_top">
-                        <div>
-                            <img src="../assets/header_top_barre/mail.png">
-                                <a href="#">manager@shop.com</a>
-                            </img>
-                        </div>
+                </div>
+                <div class="col-lg-2 left_header_top">
+                    <div>
+                        <img src="../assets/header_top_barre/mail.png">
+                            <a href="#">manager@shop.com</a>
+                        </img>
                     </div>
-                    <div class="col-lg-6 offset-lg-2 right_header_top justify-content-between">
+                </div>
+                <div class="col-lg-6 offset-lg-2 right_header_top justify-content-between">
                     <div>
                         <img src="../assets/header_top_barre/pin.png">
                             <a href="#">Location store</a>
@@ -60,7 +62,43 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-center header_middle">
+            <div class="col-lg-2 youshop">
+                <img src="../assets/header/YOUSHOP.png">
+            </div>
+            <div class="col-lg-1 describe_header">
+                Description of your online store
+            </div>
+            <div class="col-lg-6">
+                <form class="form-inline">
+                    <input class="search_bar" type="search" placeholder="Search" aria-label="Search">
+                    <button class="search_button" type="submit"><img src="../assets/header/search.png"></button>
+                </form>
+            </div>
+            <div class="col-lg-1 describe_hour">
+                7 days a week from 8:00 am to 5:00 pm
+            </div>
+            <div class="col-lg-1 heart_block">
+                <div class="heart">
+                    <img src="../assets/header/heart.png" class="pin_1">
+                    <div class="pin pin_1">13</div>
+                </div>
+            </div>
+            <div class="col-lg-1 cart">
+                <div class="shopping_cart">
+                    <img src="../assets/header/shopping-cart.png" class="pin_2">
+                    <div class="pin">0</div>
+                </div>
+                <div class="shopping_cart__item">
+                    <strong>My cart </strong></br>  $ 0.00
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
     </body>
 </html>

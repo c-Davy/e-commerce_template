@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+[class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .header-top {
   background-color: #303030;
   height: 30px;
@@ -20,6 +30,7 @@
 }
 .header-top img {
   margin-right: 5px;
+  margin-left: 0;
 }
 .header-top .row {
   height: 30px;
@@ -37,6 +48,60 @@
 .header-top .container-fluid > a {
   text-decoration: none;
   color: white;
+}
+
+.header_middle {
+  font-size: 12px;
+  height: 80px;
+}
+.header_middle .pill_2 {
+  margin-top: -10px;
+}
+.header_middle .describe_hour {
+  color: orange;
+}
+.header_middle .search_bar {
+  width: 80%;
+  height: 40px;
+  border-radius: 30px 0px 0px 30px;
+  border: 1px solid #E1E1E1;
+  padding-left: 15px;
+}
+.header_middle .form-inline {
+  padding-left: 10%;
+}
+.header_middle .search_button {
+  border-radius: 0px 20px 20px 0px;
+  border-style: none;
+  width: 10%;
+  height: 40px;
+  background-color: #ff8e0a;
+  border-color: #ff8e0a;
+}
+.header_middle .cart {
+  display: inline-flex;
+}
+.header_middle .heart, .header_middle .shopping_cart {
+  width: 45px;
+  height: 35px;
+  padding: 5px;
+}
+.header_middle .heart .badge-pill, .header_middle .shopping_cart .badge-pill {
+  margin-top: 0;
+  margin-right: 15px;
+}
+.header_middle .heart .pin, .header_middle .shopping_cart .pin {
+  border-radius: 20px 20px 20px 20px;
+  width: 20px;
+  text-align: center;
+  background: orange;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}
+.header_middle .heart .pin_1, .header_middle .shopping_cart .pin_1 {
+  margin-left: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
