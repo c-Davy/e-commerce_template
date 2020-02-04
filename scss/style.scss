@@ -103,6 +103,44 @@
         }
     }
 }
+.navbar_container{
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    .navbar{
+        width: 100%;
+        padding: 0;
+    }
+    li{
+        //border: 1px solid red;
+        background-color: white;
+    }
+    .navbar-nav{
+        width: 100%;
+        text-align: center;
+    }
+    .dropdown{
+        background-color: #FF8E0A;
+
+        #navbarDropdownMenuLink{
+            color:white!important;
+        }
+        .tribar_menu{
+            margin-right: 15px;
+        }
+    }
+    .nav-link{
+        color: $menu_link!important;
+    }
+    .nav-link:hover{
+        color: #FF8E0A!important;
+    }
+    .nav-link::after{
+        color: transparent;
+    }
+    .tribar_menu{
+        margin-right: 15px;
+    }
+}
 
 
 
